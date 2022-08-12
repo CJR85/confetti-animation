@@ -14,3 +14,22 @@
   align-items: center;
   justify-content: center;
 }
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 24px 70px;
+  background: #d118ff;
+  color: #fff;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+
+.btn:active {
+  background: #ff18f0;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+}
