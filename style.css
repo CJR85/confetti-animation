@@ -27,6 +27,8 @@
   cursor: pointer;
   position: relative;
   box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+  transition: box-shadow 0.25s;
+  z-index: 2;
 }
 
 .btn:active {
@@ -41,6 +43,8 @@
   height: 14px;
   border-radius: 50%;
   position: absolute;
+  z-index: -1;
+  transform: scale(0);
 }
 
 .btn span:nth-child(1) {
